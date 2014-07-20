@@ -49,7 +49,7 @@ activity[naindex, "steps"] <- rep(walkpattern, times = 8)
 The histogram for total steps taken with the NAs replaced:
 ```{r, echo=TRUE}
 newdailysteps <- tapply(activity$steps, activity$date, sum)
-hist(newdailysteps, main = "New average steps taken per day", xlab = "steps")
+hist(newdailysteps, main = "New total steps taken per day", xlab = "steps")
 ```
 
 ## Are there differences in activity patterns between weekdays and weekends?

@@ -81,7 +81,7 @@ The histogram for total steps taken with the NAs replaced:
 
 ```r
 newdailysteps <- tapply(activity$steps, activity$date, sum)
-hist(newdailysteps, main = "New average steps taken per day", xlab = "steps")
+hist(newdailysteps, main = "New total steps taken per day", xlab = "steps")
 ```
 
 ![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8.png) 
